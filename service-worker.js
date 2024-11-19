@@ -6,7 +6,7 @@ self.addEventListener('install', (event) => {
           '/',
           '/index.html',
           '/Your Wallet_files/main.css',
-          '/script.js',
+          '/main.js',
           // Add more URLs to cache here
         ]);
       })
