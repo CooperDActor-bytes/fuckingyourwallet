@@ -1,6 +1,6 @@
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open('my-pwa-cache')
+    caches.open('LinusWallet')
       .then(cache => {
         return cache.addAll([
           '/',
