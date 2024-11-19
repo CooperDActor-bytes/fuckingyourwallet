@@ -1,7 +1,7 @@
 {
-  "name": "My Progressive Web App",
-  "short_name": "My PWA",
-  "description": "A fantastic PWA!",
+  "name": "Fucking Your Wallet",
+  "short_name": "Fucking Your Wallet",
+  "description": "A Better Version of FuckingYourWallet.com",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
