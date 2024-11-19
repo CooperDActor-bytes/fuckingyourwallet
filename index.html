@@ -1,32 +1,9 @@
 <!DOCTYPE html>
-
-<link rel="manifest" href="manifest.json">
-
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-<script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js')
-          .then(registration => {
-            console.log('Service Worker registered:', registration);   
-
-          })
-          .catch(error => {
-            console.error('Service Worker registration failed:', error);
-          });
-      });
-    }
-  </script>   
-
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <title>Your Wallet</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="./Your Wallet_files/main.css">
-    <script type="text/javascript" async="" src="./Your Wallet_files/analytics.js.download"></script><script src="./Your Wallet_files/main.js.download"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Your Wallet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui">    
+<link rel="stylesheet" type="text/css" media="screen" href="./Your Wallet_files/main.css">
+<script type="text/javascript" async="" src="./Your Wallet_files/analytics.js.download"></script><script src="./Your Wallet_files/main.js.download"></script>
 </head>
 <body><canvas width="1920" height="897"></canvas></body></html>
